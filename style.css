@@ -1,0 +1,129 @@
+.bg-image {
+    background-image: url(./images/Untitled\ design.png);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1-styling {
+    font-size: 70px;
+    text-transform: lowercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.p-styling {
+    font-size: 25px;
+    text-transform: lowercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#img-styling {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:5px solid violet;
+}
+
+#h2-styling {
+    font-size: 45px;
+    color: blueviolet;
+}
+
+#p-styling {
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#div-styling-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+#h2-styling-10h {
+    font-size: 45px;
+    color: blueviolet;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 100px;
+}
+
+#h2-styling-o08 {
+    font-size: 20px;
+    font-weight: 700;
+    color: blueviolet;
+    text-transform: capitalize;
+}
+
+.img-styling-opi {
+    width: 250px;
+    height: 250px;
+}
+
+.p-b-ou{
+    padding-bottom: 100px;
+}
+
+#h2-styling-20h {
+    font-size: 45px;
+    color: blueviolet;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+
+.h3-styling-yt {
+    font-size: 20px;
+    font-weight: 500;
+    color: blueviolet;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.pt-styling-rew {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.btn-coloring {
+    background-color: blueviolet;
+    outline: 2px solid blueviolet;
+}
+
+.btn-styling-iur {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+}
+
+.bg-frt {
+    background-color: blueviolet;
+}
+
+/*css media quries*/
+@media only screen and (max-width: 768px) {
+    .col-md-6 {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .b-768px {
+        padding-top: 50px;
+    }
+}
+    
